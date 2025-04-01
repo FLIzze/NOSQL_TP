@@ -21,3 +21,10 @@ get les users
 ```
 curl http://localhost:500/api/profiles
 ```
+
+.env a rajouter 
+
+```
+MONGO_URI=mongodb://root:example@localhost:27017/?authSource=admin
+PORT=5000
+```
